@@ -1,0 +1,19 @@
+{
+    "meals":[
+        {
+            "id":1,
+            "name":"vegetagirim",
+            "type":"breakfast"
+        },
+        {
+            "id":2,
+            "name":"kuru fasulye",
+            "type":"lunch"
+        },
+        {
+            "id":3,
+            "name":"karnıyarık",
+            "type":"dinner"
+        }
+    ]
+}
