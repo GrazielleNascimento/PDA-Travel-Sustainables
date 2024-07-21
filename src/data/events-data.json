@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Greenbuild International Conference and Expo",
+      "type": "conference",
+      "description": "Greenbuild International Conference and Expo is the largest annual event for green building professionals worldwide to learn and source cutting edge solutions to improve resilience, sustainability, and quality of life in our buildings, cities, and communities.",
+      "location": "Worldwide"
+    },
+    {
+      "id": 2,
+      "name": "Earth Day",
+      "type": "festival",
+      "description": "Earth Day is an annual event celebrated around the world on April 22 to demonstrate support for environmental protection. First celebrated in 1970, it now includes events coordinated globally by the Earth Day Network in more than 193 countries.",
+      "location": "Worldwide"
+    },
+    {
+      "id": 3,
+      "name": "World Oceans Day",
+      "type": "festival",
+      "description": "World Oceans Day is a global day of ocean celebration and collaboration for a better future. This site serves as the central coordinating platform for World Oceans Day, with free resources and ideas for everyone – no matter where you live – to help expand the reach and impact of World Oceans Day on June 8 and year-round.",
+      "location": "Worldwide"
+    },
+    {
+      "id": 4,
+      "name": "Word Circular Economy Forum",
+      "description": " An event that highlights the world's best circular economy solutions and brings together key stakeholders from around the globe.",
+      "location": "worldwide"
+    }
+  ]
+}
