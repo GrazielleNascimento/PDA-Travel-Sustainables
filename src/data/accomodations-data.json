@@ -1,0 +1,34 @@
+{
+  "accomodations": [
+    {
+      "id": 1,
+      "name": "Farm Hotel",
+      "type": "Single",
+      "location": "next to the waterfalls"
+    },
+    {
+      "id": 2,
+      "name": "Garden Hotel",
+      "type": "double",
+      "location": "next to the garden"
+    },
+    {
+      "id": 3,
+      "name": "Mountain Hotel",
+      "type": "family",
+      "location": "next to the mountain"
+    },
+    {
+      "id": "4",
+      "name": "Space Hotel",
+      "type": "double",
+      "location": "next to the mall"
+    },
+    {
+      "id": "5",
+      "name": "Hostel",
+      "type": "single",
+      "location": "next to the bakery"
+    }
+  ]
+}
