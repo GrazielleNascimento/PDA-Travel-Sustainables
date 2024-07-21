@@ -1,0 +1,25 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Eco-friendly Resorts",
+      "type": "resorts",
+      "description": "Eco-friendly resorts are the best way to enjoy a vacation without harming the environment. These resorts are built with sustainable materials and use renewable energy sources. They also have a minimal impact on the surrounding ecosystem, making them the perfect choice for eco-conscious travelers.",
+      "location": "Worldwide"
+    },
+    {
+      "id": 2,
+      "name": "National Parks",
+      "type": "parks",
+      "description": "National parks are protected areas of land that are set aside for conservation and recreation. They are home to a wide variety of plant and animal species, and offer visitors the chance to explore some of the most beautiful and unspoiled landscapes in the world.",
+      "location": "Worldwide"
+    },
+    {
+      "id": 3,
+      "name": "Wildlife Sanctuaries",
+      "type": "sanctuaries",
+      "description": "Wildlife sanctuaries are protected areas of land that are set aside for the conservation and protection of wildlife. They are home to a wide variety of animal species, and offer visitors the chance to see some of the most endangered and rare animals in the world.",
+      "location": "Worldwide"
+    }
+  ]
+}
