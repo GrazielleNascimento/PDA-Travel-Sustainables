@@ -47,7 +47,7 @@ accomodationRouter.delete('/delete/:id', (req, res) => {
 
     //retorno no postman 
     if(deleteAccomodation(id)){
-        res.status(204)
+        res.status(204).json({})
     } else {
         res.status(404).json({ message: 'Accomodation not found' });
     }

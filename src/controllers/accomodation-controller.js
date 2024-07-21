@@ -33,9 +33,11 @@ export const getAccomodationById = (id) => {
 
     if(accomodation){
         console.log("fetching accomodation successfully");
+
         return accomodation;
     }else{
         console.log("accomodation not found");
+        
         return null;
     }
 }
@@ -80,12 +82,6 @@ export const deleteAccomodation = (id) => {
         return false;
     }
 }
-
-
-
-
-
-
 
 const readDataFromFile = () => {
     try {
