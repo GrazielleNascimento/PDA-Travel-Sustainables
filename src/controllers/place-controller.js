@@ -37,6 +37,21 @@ export const getPlaceById = (id) => {
     }
 }
 
+export const getPlaceByName = (name) => {
+    const placeData = readDataFromFile();
+    const place = placeData.places.find((place) => place.name === name);
+
+    if(place){
+        console.log('fetching place successfully');
+
+        return place;
+    } else {
+        console.log('place not found');
+
+        return null;
+    }
+}
+
 export const updatePlace = (id, name, type, description, location) => {
     const placeData = readDataFromFile();
     const place = placeData.places.find((place) => place.id === id);
