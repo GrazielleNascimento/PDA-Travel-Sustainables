@@ -11,7 +11,7 @@ eventRouter.post('/create', (req, res) => {
 });
 
 
-eventRouter.get('/getAll', (res) => {
+eventRouter.get('/getAll', (req, res) => {
     const events = getEvents();
 
     res.status(200).json(events);

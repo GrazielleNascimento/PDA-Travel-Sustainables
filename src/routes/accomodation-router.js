@@ -10,7 +10,7 @@ accomodationRouter.post('/create', (req, res) =>{
     res.status(201).json(accomodation);
 });
 
-accomodationRouter.get('/getAll', (res) => {
+accomodationRouter.get('/getAll', (req, res) => {
     const accomodations = getAccomodations();
 
     res.status(200).json(accomodations);
