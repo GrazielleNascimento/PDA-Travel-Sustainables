@@ -6,6 +6,7 @@ import { transportationRouter } from "./routes/transportation-router.js";
 import { mealsRouter } from "./routes/meals-router.js";
 import { packageRouter } from "./routes/package-router.js";
 import { guideRouter } from "./routes/guide-router.js";
+import { itineraryRouter } from "./routes/itinerary-router.js";
 
 const app = express();
 const port = 3000;
@@ -19,6 +20,7 @@ app.use('/transportation', transportationRouter);
 app.use('/meal', mealsRouter);
 app.use('/package', packageRouter);
 app.use('/guide', guideRouter);
+app.use('/itinerary', itineraryRouter);
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

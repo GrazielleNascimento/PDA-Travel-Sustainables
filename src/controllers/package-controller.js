@@ -1,4 +1,4 @@
-import { Package } from '../models/package-model';
+import { Package } from '../models/package-model.js';
 import { readFileSync, writeFileSync } from 'fs';
 
 const packageFilePath = 'src/data/packages-data.json';
