@@ -1,0 +1,24 @@
+{
+  "meals": [
+    {
+      "id":1,
+      "name":"vegetarian",
+      "type":"breakfast"
+  },
+  {
+      "id":2,
+      "name":"kuru fasulye",
+      "type":"lunch"
+  },
+  {
+      "id":3,
+      "name":"karnıyarık",
+      "type":"dinner"
+  },
+    {
+      "id": 4,
+      "name": "Hortfruti",
+      "type": "breakfast"
+    }
+  ]
+}
