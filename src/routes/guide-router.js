@@ -4,8 +4,8 @@ import { createGuide, getGuides, getGuideById, updateGuide, deleteGuide } from "
 const guideRouter = Router();
 
 guideRouter.post('/create', (req, res) =>{
-    const { id, name, type, description, location} = req.body;
-    const guide = createGuide(id, name, type, description, location);    
+    const {id, name, language} = req.body;
+    const guide = createGuide(id, name, language);    
 
     res.status(201).json(guide);
 });
@@ -29,9 +29,9 @@ guideRouter.get('/getById/:id', (req, res) => {
 
 guideRouter.put('/update/:id', (req, res) => {
     const id = parseInt(req.params.id);
-    const { name, type, description, location } = req.body;
+    const { name, language } = req.body;
 
-    const guide = updateGuide(id, name, type, description, location);
+    const guide = updateGuide(id, name, language);
 
     if(guide){
         res.status(200).json(guide);

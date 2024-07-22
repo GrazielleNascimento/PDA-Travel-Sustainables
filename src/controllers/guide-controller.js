@@ -1,11 +1,11 @@
-import { Guide } from '../models/guide-model';
+import { Guide } from '../models/guide-model.js';
 import { readFileSync, writeFileSync } from 'fs';
 
 const guideFilePath = 'src/data/guides-data.json';
 
-export const createGuide = (id, name, type, description, location) => {
+export const createGuide = (id, name, language) => {
         
-        const guide = new Guide(id, name, type, description, location);
+        const guide = new Guide(id, name, language);
     
         const guideData = readDataFromFile();
     
@@ -38,14 +38,14 @@ export const getGuideById = (id) => {
     }
 }
 
-export const updateGuide = (id, name, type, description, location) => {
+export const updateGuide = (id, name, language) => {
 
     const guideData = readDataFromFile();
     
     const guideIndex = guideData.guides.findIndex((guide) => guide.id === id);
 
     if(guideIndex !== -1){
-        guideData.guides[guideIndex] = new Guide(id, name, type, description, location);
+        guideData.guides[guideIndex] = new Guide(id, name, language);
         saveDataToFile(guideData);
         console.log('updating guide successfully');
         return guideData.guides[guideIndex];
@@ -80,7 +80,7 @@ const readDataFromFile = () => {
     } catch (err) {
       if (err.code === 'ENOENT') {
         console.log('Guide file not found');
-        return { accomodations: [] };
+        return { guides: [] };
       } else {
         throw err;
       }
