@@ -10,7 +10,7 @@ mealsRouter.post('/create', (req, res) => {
     res.status(201).json(meal);
 });
 
-mealsRouter.get('/getAll', (res) => {
+mealsRouter.get('/getAll', (req, res) => {
     const meals = getAllMeals();
 
     res.status(200).json(meals);
