@@ -1,0 +1,17 @@
+{
+  "itineraries": [
+    {
+      "id": 1,
+      "name": "Beach Vacation",
+      "description": "A relaxing vacation at the beach",
+      "location": "worldwide",
+      "placeID": 1,
+      "accomodationID": 1,
+      "transportationID": 1,
+      "mealID": 1,
+      "eventID": 1,
+      "guideID": 1,
+      "packageID": 1
+    }
+  ]
+}
