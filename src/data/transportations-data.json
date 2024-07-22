@@ -1,16 +1,16 @@
 {
-    "transportations": [
-        {
-            "id": 1,
-            "name": "Bike",
-            "description": "Biking is a great way to get around and is good for the environment.",
-            "type": "land"
-        },
-        {
-            "id": 2,
-            "name": "Bus",
-            "description": "Buses are a great way to get around and are good for the environment.",
-            "type": "land"
-        }
-    ]
+  "transportations": [
+    {
+      "id": 1,
+      "name": "Bike",
+      "location": "Biking is a great way to get around and is good for the environment.",
+      "type": "land"
+    },
+    {
+      "id": 2,
+      "name": "Bus",
+      "location": "Buses are a great way to get around and are good for the environment.",
+      "type": "land"
+    }
+  ]
 }

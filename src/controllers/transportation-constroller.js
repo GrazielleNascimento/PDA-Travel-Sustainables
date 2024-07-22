@@ -3,7 +3,7 @@ import { readFileSync, writeFileSync } from 'fs';
 
 const transportationFilePath = 'src/data/transportations-data.json';
 
-export const createTransportation = (id, name, type, location) => {
+export const createTransportation = (id, name, location, type,)  => {
     
     const transportation = new Transportation(id, name, type, location);
 

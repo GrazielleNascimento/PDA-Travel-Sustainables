@@ -8,7 +8,6 @@ placeRouter.post('/create', (req, res) =>{
     const place = createPlace(id, name, type, description, location);    
 
     res.status(201).json(place);
-
 });
 
 placeRouter.get('/getAll', (req, res) => {

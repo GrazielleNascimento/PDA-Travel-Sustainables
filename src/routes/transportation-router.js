@@ -10,7 +10,7 @@ transportationRouter.post('/create', (req, res) => {
     res.status(201).json(transportation);
 });
     
-transportationRouter.get('/getAll', (req, res) => {
+transportationRouter.get('/getAll', (res) => {
     const transportations = getTransportations();
 
     res.status(200).json(transportations);
