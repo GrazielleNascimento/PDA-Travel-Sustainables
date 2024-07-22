@@ -1,0 +1,10 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "name": "Word Circular Economy Forum",
+      "type": "forum",
+      "description": " An event that highlights the world's best circular economy solutions and brings together key stakeholders from around the globe."
+    }
+  ]
+}

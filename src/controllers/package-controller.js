@@ -79,7 +79,7 @@ const readDataFromFile = () => {
     } catch (err) {
       if (err.code === 'ENOENT') {
         console.log('Package file not found');
-        return { accomodations: [] };
+        return { packages: [] };
       } else {
         throw err;
       }

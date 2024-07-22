@@ -10,7 +10,7 @@ packageRouter.post('/create', (req, res) =>{
     res.status(201).json(packageTravel);
 });
     
-packageRouter.get('/getAll', ( res) => {
+packageRouter.get('/getAll', (req,res) => {
     const packages = getPackages();
 
     res.status(200).json(packages);
