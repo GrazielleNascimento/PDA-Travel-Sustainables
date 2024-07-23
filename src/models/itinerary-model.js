@@ -1,5 +1,5 @@
 export class Itinerary {
-    constructor(id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID){ 
+    constructor(id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID, promptText = ''){ 
         this.id = id;
         this.name = name;
         this.description = description;
@@ -11,5 +11,6 @@ export class Itinerary {
         this.eventID = eventID;
         this.guideID = guideID;
         this.packageID = packageID;
+        this.promptText = promptText;
     }
 }
