@@ -2,9 +2,33 @@
   "packages": [
     {
       "id": 1,
-      "name": "Word Circular Economy Forum",
-      "type": "forum",
-      "description": " An event that highlights the world's best circular economy solutions and brings together key stakeholders from around the globe."
+      "name": "Eco-Friendly Adventure",
+      "type": "Adventure",
+      "description": "Experience outdoor adventures while minimizing environmental impact through sustainable practices."
+    },
+    {
+      "id": 2,
+      "name": "Green City Break",
+      "type": "City Break",
+      "description": "Explore eco-friendly cities with accommodations and activities focused on sustainability."
+    },
+    {
+      "id": 3,
+      "name": "Organic Farm Stay",
+      "type": "Rural",
+      "description": "Stay on an organic farm and learn about sustainable agriculture and local food production."
+    },
+    {
+      "id": 4,
+      "name": "Wildlife Conservation Safari",
+      "type": "Safari",
+      "description": "Join a safari focused on wildlife conservation, supporting local ecosystems and species protection."
+    },
+    {
+      "id": 5,
+      "name": "Sustainable Sailing",
+      "type": "Cruise",
+      "description": "Sail on eco-friendly vessels and participate in activities promoting marine conservation."
     }
   ]
 }
