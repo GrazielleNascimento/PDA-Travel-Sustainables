@@ -1,10 +1,31 @@
 import { Itinerary } from '../models/itinerary-model.js';
 import { readFileSync, writeFileSync } from 'fs';
-
+import { createPrompt }  from '../gemini-api/input-prompt.js';
+import  GeminiApi from "../gemini-api/gemini-api.js";
 
 const itineraryFilePath = 'src/data/itineraries-data.json';
 
-export const createItinerary = (id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID) => {
+const readDataFromFile = () => {
+    try {
+      const rawData = readFileSync(itineraryFilePath);
+      return JSON.parse(rawData);
+    } catch (err) {
+      if (err.code === 'ENOENT') {
+        console.log('Itinerary file not found');
+        return { itineraries: [] };
+      } else {
+        throw err;
+      }
+    }
+};
+
+const saveDataToFile = (data) => {
+    writeFileSync((itineraryFilePath), JSON.stringify(data, null, 2));
+    console.log('Itinerary saved to file');
+};
+
+
+export const createItinerary = async (id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID) => {
     
     const itinerary = new Itinerary(id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID);
 
@@ -12,7 +33,21 @@ export const createItinerary = (id, name, description, location, placeID, accomo
 
     itineraryData.itineraries.push(itinerary);
 
+    const prompt = createPrompt(itinerary);
+    console.log('prompt', prompt);
+    const { success, text, message } = await GeminiApi.run(prompt);
+
+    if (success) {
+        console.log('Gemini API run successfully');
+        // Update the itinerary with the response text
+        itinerary.geminiAI = text;
+    } else {
+        console.error('Gemini API returned an error:', message);
+    }
+
+    // Save updated itinerary data to file
     saveDataToFile(itineraryData);
+
     return itinerary;
 }
     
@@ -68,22 +103,3 @@ export const deleteItinerary = (id) => {
         return false;
     }
 }
-
-const readDataFromFile = () => {
-    try {
-      const rawData = readFileSync(itineraryFilePath);
-      return JSON.parse(rawData);
-    } catch (err) {
-      if (err.code === 'ENOENT') {
-        console.log('Itinerary file not found');
-        return { itineraries: [] };
-      } else {
-        throw err;
-      }
-    }
-  };
-
-  const saveDataToFile = (data) => {
-    writeFileSync((itineraryFilePath), JSON.stringify(data, null, 2));
-    console.log('Itinerary saved to file');
-  };
