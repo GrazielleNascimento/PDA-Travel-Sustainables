@@ -3,11 +3,14 @@ import { createItinerary, getItineraries, getItineraryById, updateItinerary, del
 
 const itineraryRouter = Router();
 
-itineraryRouter.post('/create', (req, res) => {
+itineraryRouter.post('/create', async (req, res) => {
     const {id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID} = req.body;
-    const itinerary = createItinerary(id, name,  description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID);
-
-    res.status(201).json(itinerary);
+    try {
+        const itinerary = await createItinerary(id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID);
+        res.status(201).json(itinerary);
+    } catch (error) {
+        res.status(500).json({ message: 'Error creating itinerary', error: error.message });
+    }
 });
 
 itineraryRouter.get('/getAll', (req, res) => {
