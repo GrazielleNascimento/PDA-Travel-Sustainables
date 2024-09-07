@@ -13,43 +13,54 @@ itineraryRouter.post('/create', async (req, res) => {
     }
 });
 
-itineraryRouter.get('/getAll', (req, res) => {
-    const itineraries = getItineraries();
-
-    res.status(200).json(itineraries);
-});
-
-itineraryRouter.get('/getById/:id', (req, res) => {
-    const id = parseInt(req.params.id);
-    const itinerary = getItineraryById(id);
-
-    if(itinerary){
-        res.status(200).json(itinerary);
-    } else {
-        res.status(404).json({ message: 'Itinerary not found' });
+itineraryRouter.get('/getAll', async (req, res) => {
+    try {
+        const itineraries = await getItineraries();
+        res.status(200).json(itineraries);
+    } catch (error) {
+        res.status(500).json({ message: 'Error fetching itineraries', error: error.message });
     }
 });
 
-itineraryRouter.put('/update/:id', (req, res) => {
+itineraryRouter.get('/getById/:id', async (req, res) => {
     const id = parseInt(req.params.id);
-    const { name,  description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID  } = req.body;
-
-    const itinerary = updateItinerary(id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID);
-
-    if(itinerary){
-        res.status(200).json(itinerary);
-    } else {
-        res.status(404).json({ message: 'Itinerary not found' });
+    try {
+        const itinerary = await getItineraryById(id);
+        if(itinerary){
+            res.status(200).json(itinerary);
+        } else {
+            res.status(404).json({ message: 'Itinerary not found' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Error fetching itinerary', error: error.message });
     }
 });
 
-itineraryRouter.delete('/delete/:id', (req, res) => {
+itineraryRouter.put('/update/:id', async (req, res) => {
     const id = parseInt(req.params.id);
+    const { name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID } = req.body;
+    try {
+        const itinerary = await updateItinerary(id, name, description, location, placeID, accomodationID, transportationID, mealID, eventID, guideID, packageID);
+        if(itinerary){
+            res.status(200).json(itinerary);
+        } else {
+            res.status(404).json({ message: 'Itinerary not found' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Error updating itinerary', error: error.message });
+    }
+});
 
-    if(deleteItinerary(id)){
-        res.status(204).json({})
-    } else {
-        res.status(404).json({ message: 'Itinerary not found' });
+itineraryRouter.delete('/delete/:id', async (req, res) => {
+    const id = parseInt(req.params.id);
+    try {
+        if(await deleteItinerary(id)){
+            res.status(204).json({});
+        } else {
+            res.status(404).json({ message: 'Itinerary not found' });
+        }
+    } catch (error) {
+        res.status(500).json({ message: 'Error deleting itinerary', error: error.message });
     }
 });
 

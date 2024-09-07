@@ -11,7 +11,8 @@
       "mealID": 1,
       "eventID": 1,
       "guideID": 1,
-      "packageID": 1
+      "packageID": 1,
+      "promptText": ""
     },
     {
       "id": 20,
