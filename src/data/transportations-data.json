@@ -2,15 +2,24 @@
   "transportations": [
     {
       "id": 1,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqn97d9OaM7H5Bzx9zl3ujlYtuatTkM6kpUA&s",
       "name": "Bike",
       "location": "Biking is a great way to get around and is good for the environment.",
       "type": "land"
     },
     {
       "id": 2,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqn97d9OaM7H5Bzx9zl3ujlYtuatTkM6kpUA&s",
       "name": "Bus",
       "location": "Buses are a great way to get around and are good for the environment.",
       "type": "land"
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqn97d9OaM7H5Bzx9zl3ujlYtuatTkM6kpUA&s",
+      "name": "Train",
+      "type": "Trains are a great way to get around and are good for the environment.",
+      "location": "land"
     }
   ]
 }
