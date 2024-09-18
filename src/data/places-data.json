@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVEq57mutkHHk54_vKQQQAyhIwwTbpYh7OXw&s",
+      "imageUrl":"https://i.natgeofe.com/n/1445b0f2-95ae-4259-a82e-1e1871ccc6b2/07-future-national-parks_4x3.jpg",
       "name": "National Parks",
       "type": "parks",
       "description": "National parks are protected areas of land that are set aside for conservation and recreation. They are home to a wide variety of plant and animal species, and offer visitors the chance to explore some of the most beautiful and unspoiled landscapes in the world.",
@@ -18,11 +18,27 @@
     },
     {
       "id": 3,
-      "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVEq57mutkHHk54_vKQQQAyhIwwTbpYh7OXw&s",
+      "imageUrl":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSNDlhvkA8Lm609Nyf3cNdRBkSC2umtu-Y_Q&s",
       "name": "Wildlife Sanctuaries",
       "type": "sanctuaries",
       "description": "Wildlife sanctuaries are protected areas of land that are set aside for the conservation and protection of wildlife. They are home to a wide variety of animal species, and offer visitors the chance to see some of the most endangered and rare animals in the world.",
       "location": "Worldwide"
+    },
+    {
+      "id": 4,
+      "imageUrl":"https://cdn0.weddingwire.com/vendor/970671/3_2/960/jpg/-pix-2994-wkrl0nl5-u5i_51_2176079-171122847219279.jpeg",
+      "name": "Green Mountain Retreat",
+      "type": "retreats",
+      "description": "Green Mountain Retreat is a peaceful and serene retreat center located in the heart of the Green Mountains. Surrounded by lush forests and rolling hills, the retreat offers guests the chance to relax, rejuvenate, and reconnect with nature.",
+      "location": "Vermont, USA"
+    },
+    {
+      "id": 5,
+      "imageUrl":"https://www.anywhere.com/blog/images/Peruvian-Amazon-resplendent.png", 
+      "name": "Amazon Rainforest",
+      "type": "rainforests",
+      "description": "The Amazon Rainforest is the largest tropical rainforest in the world, covering an area of over 6 million square kilometers. It is home to a wide variety of plant and animal species, many of which are found nowhere else on Earth.",
+      "location": "South America"
     }
   ]
 }
