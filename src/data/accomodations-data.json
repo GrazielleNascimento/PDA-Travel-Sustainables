@@ -2,30 +2,35 @@
   "accomodations": [
     {
       "id": 1,
+      "imageUrl": "https://www.condominiosverdes.com.br/wp-content/uploads/2018/09/hotel-sustent%C3%A1vel-M%C3%A9xico-quartos-de-bambu-01.jpg",
       "name": "Farm Hotel",
       "type": "Single",
       "location": "next to the waterfalls"
     },
     {
       "id": 2,
+      "imageUrl": "https://lh4.googleusercontent.com/proxy/356Ti8ZCcef7OUjWprVz518rlhrEJb6RxAmx1Y3pUJPWnCC3O1JGgOfYsgJBjJpYFBu5k3kXrzU71ufUsNDZzVNiJebtUqKUFjCnepC5mD4aMcrNwssBB1xR9nRk57QO-o_zz05Vtn2Xc4NpXQYk",
       "name": "Garden Hotel",
       "type": "double",
       "location": "next to the garden"
     },
     {
       "id": 3,
+      "imageUrl": "https://www.condominiosverdes.com.br/wp-content/uploads/2018/09/hotel-sustent%C3%A1vel-M%C3%A9xico-quartos-de-bambu-01.jpg",
       "name": "Mountain Hotel",
       "type": "family",
       "location": "next to the mountain"
     },
     {
       "id": "4",
+      "imageUrl": "https://www.condominiosverdes.com.br/wp-content/uploads/2018/09/hotel-sustent%C3%A1vel-M%C3%A9xico-quartos-de-bambu-01.jpg",
       "name": "Space Hotel",
       "type": "double",
       "location": "next to the mall"
     },
     {
       "id": "5",
+      "imageUrl": "https://www.condominiosverdes.com.br/wp-content/uploads/2018/09/hotel-sustent%C3%A1vel-M%C3%A9xico-quartos-de-bambu-01.jpg",
       "name": "Hostel",
       "type": "single",
       "location": "next to the bakery"
