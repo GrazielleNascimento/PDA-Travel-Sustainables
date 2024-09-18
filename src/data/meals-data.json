@@ -1,22 +1,26 @@
 {
   "meals": [
     {
-      "id": 2,
+      "id": 1,
+      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
       "name": "kuru fasulye",
       "type": "lunch"
     },
     {
-      "id": 3,
+      "id": 2,
+      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
       "name": "karnıyarık",
       "type": "dinner"
     },
     {
-      "id": 4,
+      "id": 3,
+      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
       "name": "Hortfruti",
       "type": "breakfast"
     },
     {
-      "id": 1,
+      "id": 4,
+      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
       "name": "vegetariann",
       "type": "breakfast"
     }
