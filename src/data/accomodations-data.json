@@ -16,21 +16,21 @@
     },
     {
       "id": 3,
-      "imageUrl": "https://www.condominiosverdes.com.br/wp-content/uploads/2018/09/hotel-sustent%C3%A1vel-M%C3%A9xico-quartos-de-bambu-01.jpg",
+      "imageUrl": "https://d1brno4kbxrfxy.cloudfront.net/wp-content/blogs.dir/14/files/2022/09/RS26981_shutterstock_1673544094-scr.jpg",
       "name": "Mountain Hotel",
       "type": "family",
       "location": "next to the mountain"
     },
     {
       "id": "4",
-      "imageUrl": "https://www.condominiosverdes.com.br/wp-content/uploads/2018/09/hotel-sustent%C3%A1vel-M%C3%A9xico-quartos-de-bambu-01.jpg",
+      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/220428100601-01-orbital-assembly-space-hotel.jpg?c=original",
       "name": "Space Hotel",
       "type": "double",
       "location": "next to the mall"
     },
     {
       "id": "5",
-      "imageUrl": "https://www.condominiosverdes.com.br/wp-content/uploads/2018/09/hotel-sustent%C3%A1vel-M%C3%A9xico-quartos-de-bambu-01.jpg",
+      "imageUrl": "https://bedway-athens-hostel.ibooked.com.br/data/Photos/OriginalPhoto/12614/1261464/1261464943/Bedway-Athens-Hostel-Exterior.JPEG",
       "name": "Hostel",
       "type": "single",
       "location": "next to the bakery"
