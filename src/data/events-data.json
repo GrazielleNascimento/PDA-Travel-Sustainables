@@ -2,7 +2,7 @@
   "events": [
     {
       "id": 1,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwZk0AHNH3qFsdnyx4fpH3dF8hFWaAJKLtA&s",
+      "imageUrl": "https://knect365.imgix.net/uploads/Greenbuild-DC-2023-Nimsi-6903-900x565-0d096bdddb79d3e9c48d28e49494079e.jpg?auto=format&fit=max&w=412&dpr=5",
       "name": "Greenbuild International Conference and Expo",
       "type": "conference",
       "description": "Greenbuild International Conference and Expo is the largest annual event for green building professionals worldwide to learn and source cutting edge solutions to improve resilience, sustainability, and quality of life in our buildings, cities, and communities.",
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwZk0AHNH3qFsdnyx4fpH3dF8hFWaAJKLtA&s",
+      "imageUrl": "https://images.squarespace-cdn.com/content/63064607eb816a4d50027fd1/1708017648470-I962VFO7GB8C0EP0GCHF/earth-day-eden-green-tech.png?format=1500w&content-type=image%2Fpng",
       "name": "Earth Day",
       "type": "festival",
       "description": "Earth Day is an annual event celebrated around the world on April 22 to demonstrate support for environmental protection. First celebrated in 1970, it now includes events coordinated globally by the Earth Day Network in more than 193 countries.",
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwZk0AHNH3qFsdnyx4fpH3dF8hFWaAJKLtA&s",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/6050604af7f4047a29151b65/1622795352326-TUX8EH4I7SA0CCRVKETL/WORLD-OCEANS-DAY.jpg",
       "name": "World Oceans Day",
       "type": "festival",
       "description": "World Oceans Day is a global day of ocean celebration and collaboration for a better future. This site serves as the central coordinating platform for World Oceans Day, with free resources and ideas for everyone – no matter where you live – to help expand the reach and impact of World Oceans Day on June 8 and year-round.",
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrwZk0AHNH3qFsdnyx4fpH3dF8hFWaAJKLtA&s",
+      "imageUrl": "https://t1e1.com.br/wp-content/uploads/2024/04/WCEF-2025-SAO-PAULO-905x613.png",
       "name": "Word Circular Economy Forum",
       "description": " An event that highlights the world's best circular economy solutions and brings together key stakeholders from around the globe.",
       "location": "worldwide"
