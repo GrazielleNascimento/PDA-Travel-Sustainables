@@ -3,8 +3,26 @@
     {
       "id": 1,
       "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tour_Guide.jpg/800px-Tour_Guide.jpg",
-      "name": "Paulo",
+      "name": "Paulo Gomes",
       "language": "Spanish"
+    },
+    {
+      "id": 2,
+      "imageUrl":"https://midias.correiobraziliense.com.br/_midias/jpg/2023/07/05/spain_mulher_mais_bonita-28437517.jpg",
+      "name": "Claire Redfield", 
+      "language": "German"
+    },
+    {
+      "id": 3,
+      "imageUrl":"https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/siria.webp?w=495",
+      "name": "Leon S. Kennedy", 
+      "language": "French"
+    },
+    {
+      "id": 4,
+      "imageUrl":"https://img.freepik.com/fotos-premium/guia-de-viagem-turismo-na-europa-mulher-turista-com-mapa-na-rua_93675-13014.jpg",
+      "name": "Jill Valentine", 
+      "language": "English"
     }
   ]
 }
