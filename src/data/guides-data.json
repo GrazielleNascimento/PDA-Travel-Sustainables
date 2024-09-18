@@ -2,6 +2,7 @@
   "guides": [
     {
       "id": 1,
+      "imageUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Tour_Guide.jpg/800px-Tour_Guide.jpg",
       "name": "Paulo",
       "language": "Spanish"
     }
