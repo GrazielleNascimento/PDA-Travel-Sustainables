@@ -2,25 +2,25 @@
   "meals": [
     {
       "id": 1,
-      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstuI76i9_L4-XQbjJ_MfujHYTeSY8AHNrhA&s",
       "name": "kuru fasulye",
       "type": "lunch"
     },
     {
       "id": 2,
-      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
+      "imageUrl": "https://i.ytimg.com/vi/FNi-IceY2GI/maxresdefault.jpg",
       "name": "karnıyarık",
       "type": "dinner"
     },
     {
       "id": 3,
-      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
+      "imageUrl": "https://www.frubelle.com.br/wp-content/uploads/2019/12/A-import%C3%A2ncia-do-hortifruti-na-alimenta%C3%A7%C3%A3o-1000x600.jpg",
       "name": "Hortfruti",
       "type": "breakfast"
     },
     {
       "id": 4,
-      "imageUrl": "https://static01.nyt.com/images/2018/08/08/dining/rice-noodles-copy/rice-noodles-superJumbo-v2.jpg",
+      "imageUrl": "https://www.clubmahindra.com/blog/media/section_images/vegetarian-194f3130c95fbc6.jpg",
       "name": "vegetariann",
       "type": "breakfast"
     }
