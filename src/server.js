@@ -8,9 +8,13 @@ import { packageRouter } from "./routes/package-router.js";
 import { guideRouter } from "./routes/guide-router.js";
 import { itineraryRouter } from "./routes/itinerary-router.js";
 import { promptRouter } from "./gemini-api/input-prompt.js";
+import cors from "cors";
 
 const app = express();
 const port = 3000;
+
+app.use(cors());
+
 
 app.use(express.json());
 
