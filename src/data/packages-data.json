@@ -2,30 +2,35 @@
   "packages": [
     {
       "id": 1,
+      "imageUrl":"https://images.squarespace-cdn.com/content/v1/5790fb74b3db2bde1aa17729/1604165172479-HHC1U6TR3GCT80AS3GFK/Eco+Friendly+Gifts+for+Outdoor+Adventurers+Title.jpg",
       "name": "Eco-Friendly Adventure",
       "type": "Adventure",
       "description": "Experience outdoor adventures while minimizing environmental impact through sustainable practices."
     },
     {
       "id": 2,
+      "imageUrl":"https://images.squarespace-cdn.com/content/v1/5790fb74b3db2bde1aa17729/1604165172479-HHC1U6TR3GCT80AS3GFK/Eco+Friendly+Gifts+for+Outdoor+Adventurers+Title.jpg",
       "name": "Green City Break",
       "type": "City Break",
       "description": "Explore eco-friendly cities with accommodations and activities focused on sustainability."
     },
-    {
+    { 
       "id": 3,
+      "imageUrl":"https://images.squarespace-cdn.com/content/v1/5790fb74b3db2bde1aa17729/1604165172479-HHC1U6TR3GCT80AS3GFK/Eco+Friendly+Gifts+for+Outdoor+Adventurers+Title.jpg",
       "name": "Organic Farm Stay",
       "type": "Rural",
       "description": "Stay on an organic farm and learn about sustainable agriculture and local food production."
     },
     {
       "id": 4,
+      "imageUrl":"https://images.squarespace-cdn.com/content/v1/5790fb74b3db2bde1aa17729/1604165172479-HHC1U6TR3GCT80AS3GFK/Eco+Friendly+Gifts+for+Outdoor+Adventurers+Title.jpg",
       "name": "Wildlife Conservation Safari",
       "type": "Safari",
       "description": "Join a safari focused on wildlife conservation, supporting local ecosystems and species protection."
     },
     {
       "id": 5,
+      "imageUrl":"https://images.squarespace-cdn.com/content/v1/5790fb74b3db2bde1aa17729/1604165172479-HHC1U6TR3GCT80AS3GFK/Eco+Friendly+Gifts+for+Outdoor+Adventurers+Title.jpg",
       "name": "Sustainable Sailing",
       "type": "Cruise",
       "description": "Sail on eco-friendly vessels and participate in activities promoting marine conservation."
